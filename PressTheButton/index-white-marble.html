@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-us-compatible" content="ie=edge">
+
+        <title>Click Click Boom</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Alegreya', serif;
+                background-image: url(810228756676a86b621219f95a0f914d.jpg);
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                text-decoration: none;
+                color: black;
+            }
+            #outer {
+                border: 5px solid white;
+                border-radius: 2px;
+                padding: 5px;
+                width: 205px;
+                height: 125px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            #inner {
+                background-color: white;
+                width: 205px;
+                height: 125px;
+                border-radius: 2px;
+                display: flex;/* NEW, Spec - Firefox, Chrome, Opera */
+                display: -webkit-flex;/* Safari */
+                align-items: center;/* NEW, Spec - Firefox, Chrome, Opera, IE */
+                -webkit-align-items: center;/* Safari 7.0+ */
+                justify-content: center;/* NEW, Spec - IE, Opera */
+                -webkit-justify-content: center;/* Safari 6.1+, Chrome 21.0+, Firefox 18.0+ */
+                -moz-justify-content: center;/* Firefox 18.0+ */
+                font-size: 50px;
+            }
+            #outer:active {
+                transform: translate(12px, 8px);/* NEW - Firefox, Chrome, Opera */
+                -webkit-transform: translate(12px, 8px);/* Safari */
+                -ms-transform: translate(12px, 8px);/* IE9 */
+            }
+        </style>    
+    </head>
+    <body>
+        <a href="#">
+            <div id="outer">
+                <div id="inner" class="box">CLICK</div>
+            </div>
+        </a>
+    </body>
+</html>
