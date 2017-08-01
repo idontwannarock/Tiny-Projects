@@ -35,6 +35,9 @@
                 left: 0;
                 right: 0;
                 margin: auto;
+                -moz-box-shadow:3px 3px 5px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
+                -webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
+                box-shadow:3px 3px 5px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
             }
             #inner {
                 background-color: black;
@@ -55,6 +58,9 @@
                 transform: translate(12px, 8px);/* NEW - Firefox, Chrome, Opera */
                 -webkit-transform: translate(12px, 8px);/* Safari */
                 -ms-transform: translate(12px, 8px);/* IE9 */
+                -moz-box-shadow:0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
+                -webkit-box-shadow:0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
+                box-shadow:0 3px 6px rgba(0,0,0,0.50), 0 3px 6px rgba(0,0,0,0.50);
             }
         </style>    
     </head>
@@ -64,5 +70,8 @@
                 <div id="inner" class="box">CLICK</div>
             </div>
         </a>
+        <script>
+            document.body.addEventListener('touchstart',function(){});
+        </script>
     </body>
 </html>
