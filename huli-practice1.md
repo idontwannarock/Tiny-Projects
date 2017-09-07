@@ -38,8 +38,8 @@
 >因為大家都可以編輯，所以請小心不要蓋到別人的  
 >https://docs.google.com/spreadsheets/d/1IgxN2mlM8BJJs0nqX6qP2NVEiECtRPd7rOr57Inqgu4/edit?usp=sharing  
 >  
->3. 如果可以，希望大家能養成紀錄心得的好習慣，因此請大家開一個 blog。最推薦的方式是去學習怎麼用靜態部落格產生系統，例如說 hexo 或是 hugo，並且把部落格架在 Github pages 上面。如果你覺得太難你不會的話，也可以考慮直接用現成的系統，例如說 blogger, logdown, medium 等等  
-  
+>3. 如果可以，希望大家能養成紀錄心得的好習慣，因此請大家開一個 blog。最推薦的方式是去學習怎麼用靜態部落格產生系統，例如說 hexo 或是 hugo，並且把部落格架在 Github pages 上面。如果你覺得太難你不會的話，也可以考慮直接用現成的系統，例如說 blogger, logdown, medium 等等  
+>  
 >但推薦前者，因為你可以學習到怎麼使用靜態部落格產生系統跟 git 的基本操作以及 github 的相關知識，算是這個讀書會的第一個挑戰吧  
 >  
 >之後更詳細的計畫會在下週或是這週末跟大家講，大家就先進去 slack 閒聊吧！  
@@ -48,7 +48,6 @@
 ## 學習目標
 學習怎麼用靜態部落格產生系統 hugo，並且把部落格架在 Github pages 上面。  
 ## 學習內容
-
 * 什麼是靜態部落格
 
 #### 什麼是靜態部落格
