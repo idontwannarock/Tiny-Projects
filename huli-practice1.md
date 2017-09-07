@@ -45,12 +45,10 @@
 >之後更詳細的計畫會在下週或是這週末跟大家講，大家就先進去 slack 閒聊吧！  
 >  
 >huli  
-
-##練習內容
+## 學習目標
 學習怎麼用靜態部落格產生系統 hugo，並且把部落格架在 Github pages 上面。  
+## 學習內容
 
-##Prior Knowledge Needed
+* 什麼是靜態部落格
 
-* What is static blog
-
-##
+#### 什麼是靜態部落格
