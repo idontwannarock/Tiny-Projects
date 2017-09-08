@@ -79,6 +79,7 @@ CMS的理念其實也是讓作者不用擔心部落格，也就是網頁輸出�
 Github有提供靜態網頁的 hosting功能，可以把網頁直接存在 Github的 repository裡面。    
 Github Pages有一些限制請參考 https://help.github.com/articles/what-is-github-pages/
 #### 怎麼使用 Hugo架設網頁在 Github Pages
-我選 Hugo是因為他用 Go寫的，感覺很潮，呵呵。    
-我是參考 Hugo官網說明 https://gohugo.io/hosting-and-deployment/hosting-on-github/   
-其實裡面的說明沒有寫得非常清楚，後來還參考了這個網站 https://blog.coderzh.com/2015/08/29/hugo/ 裡面的關於佈署的部分。    
+我選 Hugo是因為他用 Go寫的，感覺很潮，呵呵。    
+我個人覺得官網並沒有寫得很好，不管中文還是英文都一樣。   
+後來找到一個講的比較清楚 https://brent-li.github.io/post/build-personal-site-with-hugo/   
+然後我不知為何，從來無法用git clone的方式下載theme，所以只能直接下載zip檔解壓縮到themes資料夾，給大家作參考   
