@@ -8,5 +8,6 @@ Practice Javascript <code>addEventListener</code> function.
 Practice CSS3 layout.  
 Especially how to vertically display Chinese characters.
 ## login-signup
-Practice login/signup and logout function.
-Using Bootstrap 4, jQuery, ajax, PHP, MySQL.
+Practice login/signup and logout function.  
+Using Bootstrap 4, jQuery, ajax, PHP, MySQL.  
+Mainly practicing sql, mysqli extentions, cookie, and session.
