@@ -31,7 +31,7 @@
             }
             #btnLogout {
                 display: none;
-            }            
+            }
         </style>
     </head>
     <body onload="getCookie();">
@@ -40,7 +40,7 @@
                 <a class="navbar-brand my-2 my-lg-0 col-9" href="index.php">Sign Up Login Function</a>
                 <form class="form-inline my-2 my-lg-0 col-3">
                     <button id="btnLoginSignup" class="btn btn-outline-success my-2 my-sm-0" type="button">Login/SignUp</button>
-                    <button id="btnLogout" class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+                    <button id="btnLogout" class="btn btn-outline-success my-2 my-sm-0" type="button">Logout</button>
                 </form>
             </form>
         </nav>
@@ -106,7 +106,6 @@
                     $("#loginActive").val("1");
                 }
             })
-
             //ajax login signup info with db
             $("#loginSignupBtn").click(function() {
                 $.ajax({
@@ -122,7 +121,6 @@
                     }
                 })
             })
-
             //ajax logout
             $("#btnLogout").click(function() {
                 $.ajax({
